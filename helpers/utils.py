@@ -8,19 +8,4 @@ PATH_API      = str(SVG_DIR / "api.svg")
 PATH_PETA     = str(SVG_DIR / "peta.svg")
 PATH_AWAN     = str(SVG_DIR / "awan.svg")
 PATH_MATAHARI = str(SVG_DIR / "matahari.svg")
-
-# ==================================  utility pohon ==================================  
-# sudah dipindah ke folder helper function
-# ==================================  utility pohon ==================================  
-
-
-
-# ==================================  utility matahari ==================================
-# sudah dipindah ke folder helper function
-# ==================================  utility matahari ==================================
-
-
-
-# ==================================  utility peta ==================================
-# sudah dipindah ke folder helper function
-# ==================================  utility peta ==================================
+PATH_TERMOMETER = str(SVG_DIR / "thermometer.svg")
