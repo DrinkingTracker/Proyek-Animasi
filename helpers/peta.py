@@ -1,3 +1,11 @@
+import random
+import re
+import numpy as np
+from manim import *
+from .utils import PATH_PETA
+from .pohon import ambil_pohon
+
+
 def load_map(lebar=12, warna=None, path=PATH_PETA):
     teks = open(path, encoding="utf-8").read()
     ids = re.findall(r'<path\b[^>]*?\bid="([^"]+)"', teks)   # urutan id = urutan bentuk

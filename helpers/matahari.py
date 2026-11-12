@@ -1,3 +1,6 @@
+from manim import *
+from .utils import PATH_MATAHARI
+
 def load_sun(tinggi, buff, buang_latar=True, path=PATH_MATAHARI):
     svg = SVGMobject(path)
     bagian = list(svg.submobjects)

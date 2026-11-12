@@ -1,9 +1,6 @@
-import sys
-from pathlib import Path
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-
+import _path  
 from manim import *
-from utils import load_trees, ambil_pohon, load_sun, load_map, summon_trees
+from helpers import load_trees, ambil_pohon, load_sun, load_map, summon_trees
 
 class opening1(Scene):
      def construct(self):
@@ -57,9 +54,3 @@ class opening1(Scene):
         hutan_peta = summon_trees(pohon, provinsi, sebaran)
         self.play(LaggedStart(*[GrowFromEdge(p, DOWN) for p in hutan_peta], lag_ratio=0.05), run_time=4)
         self.wait(2)
-
-
-
-        
-
-
