@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="500" viewBox="0 0 400 500">
+<path fill-rule="nonzero" fill="rgb(3%, 2%, 1%)" fill-opacity="1" d="M 211 95 C 211 109.359375 199.359375 121 185 121 C 170.640625 121 159 109.359375 159 95 C 159 80.640625 170.640625 69 185 69 C 199.359375 69 211 80.640625 211 95 "/>
+<path fill-rule="nonzero" fill="rgb(3%, 2%, 1%)" fill-opacity="1" d="M 152 85 C 165 62 205 62 215 82 L 232 87 C 210 92 175 92 152 85 Z M 152 85 "/>
+<path fill-rule="nonzero" fill="rgb(3%, 2%, 1%)" fill-opacity="1" d="M 162 125 C 185 118 205 120 212 128 C 220 175 218 225 214 270 L 156 270 C 154 220 156 170 162 125 Z M 162 125 "/>
+<path fill="none" stroke-width="22" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(3%, 2%, 1%)" stroke-opacity="1" stroke-miterlimit="10" d="M 164 136 C 142 175 134 215 132 255 "/>
+<path fill-rule="nonzero" fill="rgb(3%, 2%, 1%)" fill-opacity="1" d="M 108 268 L 144 268 C 154 268 154 278 154 280 L 154 332 C 154 342 144 342 142 342 L 108 342 C 98 342 98 332 98 330 L 98 280 C 98 268 108 268 108 268 Z M 108 268 "/>
+<path fill-rule="nonzero" fill="rgb(3%, 2%, 1%)" fill-opacity="1" d="M 106 258 L 120 258 L 120 270 L 106 270 Z M 106 258 "/>
+<path fill="none" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(3%, 2%, 1%)" stroke-opacity="1" stroke-miterlimit="10" d="M 124 262 L 144 262 L 144 270 "/>
+<path fill="none" stroke-width="21" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(3%, 2%, 1%)" stroke-opacity="1" stroke-miterlimit="10" d="M 208 136 C 235 165 258 185 282 195 "/>
+<path fill="none" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(3%, 2%, 1%)" stroke-opacity="1" stroke-miterlimit="10" d="M 268 222 L 318 142 "/>
+<path fill-rule="nonzero" fill="rgb(3%, 2%, 1%)" fill-opacity="1" d="M 308 156 L 324 130 L 334 138 L 318 163 Z M 308 156 "/>
+<path fill-rule="nonzero" fill="rgb(95%, 32%, 4%)" fill-opacity="1" d="M 322 135 C 310 110 322 82 338 62 C 340 88 358 105 335 138 Z M 322 135 "/>
+<path fill-rule="nonzero" fill="rgb(100%, 78%, 15%)" fill-opacity="1" d="M 326 133 C 320 116 326 98 336 85 C 338 102 346 114 332 135 Z M 326 133 "/>
+<path fill-rule="nonzero" fill="rgb(3%, 2%, 1%)" fill-opacity="1" d="M 160 265 L 184 265 C 182 340 180 405 178 465 L 154 465 C 156 400 158 335 160 265 Z M 160 265 "/>
+<path fill-rule="nonzero" fill="rgb(3%, 2%, 1%)" fill-opacity="1" d="M 154 465 L 180 465 C 192 468 194 478 185 480 L 151 480 Z M 154 465 "/>
+<path fill-rule="nonzero" fill="rgb(3%, 2%, 1%)" fill-opacity="1" d="M 186 265 L 210 265 C 214 340 216 405 218 465 L 194 465 C 192 400 189 335 186 265 Z M 186 265 "/>
+<path fill-rule="nonzero" fill="rgb(3%, 2%, 1%)" fill-opacity="1" d="M 194 465 L 220 465 C 234 468 236 478 226 480 L 191 480 Z M 194 465 "/>
+</svg>
