@@ -54,6 +54,43 @@ def random_point(provinsi, jumlah, jarak_min=0.3, seed=0):
     return hasil
  
  
+KALIMANTAN = ["IDKB", "IDKT", "IDKS", "IDKI", "IDKU"]
+
+# pohon di peta (kode daerah dari SVG), sama dengan scene 1
+SEBARAN = {
+    "IDAC": 2, "IDSU": 3, "IDSB": 2, "IDRI": 3, "IDJA": 2, "IDSS": 3, "IDBE": 1, "IDLA": 1,
+    "IDKB": 4, "IDKT": 4, "IDKS": 2, "IDKI": 4, "IDKU": 2,
+    "IDJB": 1, "IDJT": 2, "IDJI": 2, "IDNB": 1, "IDNT": 2,
+    "IDSN": 2, "IDST": 3, "IDSG": 2, "IDSA": 1,
+    "IDMA": 2, "IDMU": 1, "IDPA": 5, "IDPB": 2,
+}
+
+
+def hutan_padat(pohon, provinsi, ids, jumlah=14, jarak_min=0.12, tinggi=(0.3, 0.55), seed=7):
+    """Hutan rapat di beberapa provinsi. Kembalikan (hutan, titik dasar tiap pohon)."""
+    rng = random.Random(seed)
+    nama_pohon = list(pohon.keys())
+    daftar = []
+    for k, id_prov in enumerate(ids):
+        for (x, y) in random_point(provinsi[id_prov], jumlah, jarak_min=jarak_min, seed=seed + k):
+            p = ambil_pohon(pohon, rng.choice(nama_pohon), rng.uniform(*tinggi))
+            p.move_to([x, y, 0], aligned_edge=DOWN)
+            daftar.append((p, p.get_bottom().copy()))
+    # urut belakang -> depan: y besar = jauh = digambar dulu
+    daftar.sort(key=lambda d: -d[1][1])
+    return VGroup(*[p for p, _ in daftar]), [b for _, b in daftar]
+
+
+def hutan_akhir_opening(pohon, provinsi):
+    """Hutan persis seperti frame terakhir scene 1: hutan Kalimantan (sudah rebah, skala 0.7)
+    lalu pohon di pulau-pulau lain."""
+    drone, dasar = hutan_padat(pohon, provinsi, KALIMANTAN)
+    for p, b in zip(drone, dasar):
+        p.scale(0.7, about_point=b)
+    sebaran = {k: v for k, v in SEBARAN.items() if k not in KALIMANTAN}
+    return VGroup(*drone, *summon_trees(pohon, provinsi, sebaran))
+
+
 def summon_trees(pohon, provinsi, sebaran, tinggi=(0.35, 0.6), seed=1):
     rng = random.Random(seed)
     nama_pohon = list(pohon.keys())
