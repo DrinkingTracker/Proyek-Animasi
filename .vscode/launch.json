@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Render Scene 6 (F5 Quick Preview)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/main.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Build All SVG Assets (Pycairo)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/build_assets.py",
+            "console": "integratedTerminal"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 220" width="240" height="220">
+  <!-- Rusa Sambar Kalimantan 2D — menghadap dan melangkah MAJU KE KANAN menjauhi api -->
+  <!-- Kaki belakang kiri & depan kiri (sisi jauh) -->
+  <path d="M62,136 L48,196 L60,196 L76,140 Z" fill="#6F4323"/>
+  <path d="M132,134 L144,196 L156,196 L144,132 Z" fill="#6F4323"/>
+
+  <!-- Ekor kecil di belakang (kiri) -->
+  <path d="M46,106 C36,106 32,114 38,120 C44,120 48,114 48,108 Z" fill="#E6CCB2"/>
+
+  <!-- Tubuh rusa -->
+  <path d="M46,112 C52,92 86,88 126,92 C148,94 162,108 156,126 C150,140 122,144 86,142 C58,140 42,128 46,112 Z" fill="#8D5524"/>
+  <path d="M64,132 C84,140 118,140 138,132 C122,126 84,126 64,132 Z" fill="#C69C6D"/>
+
+  <!-- Kaki kanan -->
+  <path d="M72,138 L70,198 L82,198 L86,140 Z" fill="#8D5524"/>
+  <path d="M140,132 L158,198 L170,198 L152,130 Z" fill="#8D5524"/>
+
+  <!-- Leher & Kepala menghadap MAJU KE KANAN -->
+  <path d="M134,102 C146,76 158,56 172,54 C178,66 170,94 154,116 Z" fill="#8D5524"/>
+  <!-- Telinga -->
+  <ellipse cx="160" cy="46" rx="7" ry="15" fill="#78461C"/>
+  <ellipse cx="160" cy="47" rx="3.5" ry="9" fill="#D9A78B"/>
+  <!-- Kepala menghadap kanan -->
+  <path d="M164,46 C178,42 196,46 202,56 C196,66 178,68 162,62 C156,56 158,48 164,46 Z" fill="#9E622E"/>
+  <!-- Moncong & hidung gelap di kanan -->
+  <circle cx="200" cy="56" r="3.5" fill="#231812"/>
+  <!-- Mata waspada menghadap kanan -->
+  <circle cx="182" cy="52" r="3.0" fill="#1A1412"/>
+  <circle cx="183" cy="51" r="1.0" fill="#FFFFFF"/>
+  <!-- Tanduk bercabang -->
+  <path d="M168,46 C170,30 176,20 186,14 M174,28 L164,20" stroke="#5C3A21" stroke-width="3.6" stroke-linecap="round" fill="none"/>
+</svg>
