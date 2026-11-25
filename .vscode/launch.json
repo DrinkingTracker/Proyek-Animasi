@@ -1,0 +1,26 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Render Scene 5 (Preview 720p)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/main.py",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "Render Scene 5 (Manim CLI -qh 1080p60)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "manim",
+      "args": [
+        "-pqh",
+        "src/scene5_kerusakan_hutan.py",
+        "Scene5KerusakanHutan"
+      ],
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}

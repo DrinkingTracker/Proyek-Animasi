@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 180" width="260" height="180">
+  <!-- Burung Enggang / Rangkong Kalimantan 2D (terbang melintas ke kanan) -->
+  <!-- Sayap belakang (index 0) -->
+  <path d="M118,86 C100,46 68,20 34,14 C48,38 72,62 96,86 Z" fill="#181C24"/>
+  <path d="M34,14 C46,18 58,25 68,34 C56,34 45,28 34,14 Z" fill="#F3EFE6"/>
+
+  <!-- Ekor panjang khas Rangkong -->
+  <path d="M74,100 L18,118 L24,132 L82,110 Z" fill="#F3EFE6"/>
+  <path d="M40,111 L54,107 L60,118 L46,123 Z" fill="#1B1F27"/>
+
+  <!-- Badan utama -->
+  <path d="M72,98 C92,82 132,80 156,92 C164,97 156,112 132,116 C106,120 82,112 72,98 Z" fill="#222730"/>
+  <!-- Leher & kepala putih-krem -->
+  <path d="M142,88 C154,78 172,76 180,86 C182,96 168,104 150,102 Z" fill="#F6F2E9"/>
+  <!-- Mata -->
+  <circle cx="168" cy="87" r="2.8" fill="#181C24"/>
+  <circle cx="169" cy="86" r="0.9" fill="#FFFFFF"/>
+
+  <!-- Paruh lengkung & cula (casque) khas Enggang Gading -->
+  <path d="M174,80 C186,68 206,68 214,76 C204,80 190,82 176,84 Z" fill="#D62828"/>
+  <path d="M176,84 C198,80 228,84 246,96 C224,98 198,96 174,95 Z" fill="#F4A261"/>
+  <path d="M174,95 C196,95 218,96 234,98 C214,104 192,102 172,99 Z" fill="#E9C46A"/>
+
+  <!-- Sayap depan besar (index terakhir) -->
+  <path d="M126,96 C112,56 84,26 48,18 C64,46 86,74 106,98 Z" fill="#252B36"/>
+  <path d="M48,18 C64,22 76,30 88,42 C74,42 60,34 48,18 Z" fill="#F8F5EE"/>
+</svg>

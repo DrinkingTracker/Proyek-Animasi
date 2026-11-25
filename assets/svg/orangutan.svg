@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 220" width="240" height="220">
+  <!-- Orangutan Kalimantan 2D — menghadap dan berjalan MAJU KE KANAN menjauhi api -->
+  <!-- Kaki belakang (kiri, mendorong ke belakang) -->
+  <path d="M84,148 C74,172 64,192 66,204 L82,204 C84,190 92,170 100,152 Z" fill="#8C3710"/>
+  <!-- Lengan belakang (sisi jauh, melangkah ke kanan) -->
+  <path d="M124,110 C138,140 152,170 162,202 L177,202 C172,170 156,134 138,102 Z" fill="#8C3710"/>
+
+  <!-- Badan bungkuk menghadap ke kanan -->
+  <path d="M62,126 C56,152 78,168 110,164 C136,160 150,138 144,110 C138,84 114,76 92,86 C74,94 66,110 62,126 Z" fill="#C45116"/>
+  <!-- Rumbai bulu bahu kiri (belakang) -->
+  <path d="M62,126 L54,134 L63,138 L57,148 L68,148 Z" fill="#AD4110"/>
+  <!-- Dada/perut lebih terang di sisi kanan -->
+  <path d="M96,102 C116,98 136,110 138,132 C140,150 124,158 106,156 C92,154 84,138 86,120 C88,108 90,104 96,102 Z" fill="#DE6E2B"/>
+
+  <!-- Kaki depan (menapak ke kanan) -->
+  <path d="M104,148 C108,174 116,192 124,204 L140,204 C134,186 126,168 122,146 Z" fill="#A84212"/>
+  <!-- Lengan depan panjang menjangkau maju ke kanan -->
+  <path d="M104,106 C114,140 128,174 142,204 L158,204 C150,174 136,136 122,102 Z" fill="#D45B1B"/>
+
+  <!-- Telinga -->
+  <circle cx="106" cy="70" r="8" fill="#A64112"/>
+  <!-- Kepala menghadap KE KANAN -->
+  <circle cx="132" cy="68" r="32" fill="#C45116"/>
+  <!-- Bingkai wajah gelap menghadap kanan -->
+  <ellipse cx="141" cy="72" rx="19" ry="20" fill="#5A362A"/>
+  <ellipse cx="145" cy="79" rx="13" ry="11" fill="#7D4F3E"/>
+  <!-- Mata sedih menghadap ke kanan -->
+  <circle cx="136" cy="67" r="3.4" fill="#171312"/>
+  <circle cx="149" cy="67" r="3.4" fill="#171312"/>
+  <circle cx="137" cy="66" r="1.1" fill="#FFFFFF"/>
+  <circle cx="150" cy="66" r="1.1" fill="#FFFFFF"/>
+  <!-- Alis murung -->
+  <path d="M130,63 L140,60" stroke="#2B1912" stroke-width="2.4" stroke-linecap="round" fill="none"/>
+  <path d="M145,60 L154,63" stroke="#2B1912" stroke-width="2.4" stroke-linecap="round" fill="none"/>
+  <!-- Hidung & mulut sedih -->
+  <ellipse cx="146" cy="75" rx="3.8" ry="2.4" fill="#3B231B"/>
+  <path d="M139,85 C143,82 148,82 152,85" stroke="#3B231B" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+</svg>
